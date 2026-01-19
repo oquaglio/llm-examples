@@ -55,4 +55,8 @@ Now, enable the Jupyter notebook kernel and run the notebook.
 
 Upgrade to Llama-3.1-8B or Phi-4-mini later (easy to swap in Ollama).
 
-
+```sh
+ollama pull phi3.5:latest (~3.8B, very strong reasoning for size)
+ollama pull gemma2:2b (Google's efficient 2B model)
+ollama pull qwen2.5:3b (often punches above weight)
+```
